@@ -1,5 +1,3 @@
-body {background: #333}
-
 img:hover {
 	transform: scale(1.05);
 	box-shadow: 5px 5px 5px 5px #888;
@@ -7,36 +5,49 @@ img:hover {
 
 img {
 	max-width: 125px;
-	height: auto;
 }
 
-h1 {color: #c4c4c4}
+.header-title {
+	font-size: 3.14vw;
+	font-family: Consolas;
+	font-variant: small-caps;
+	text-align: center;
+}
 
-h2 {color: #9f9f9f}
+.centered-text {
+	text-align: center;
+	font-family: Consolas;
+}
 
-h3 {color: #e6e6e6}
+table {
+	width: 100%;
+	font-family: Consolas;
+}
 
-h4 {color: #fff}
-
-table {width: 100%}
-
-th {background-color: #1b1b1b}
+th {
+	background-color: #e2e2e2;
+}
 
 td {
 	height: 150px;
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
-tr:nth-child(even) {background-color: #2b2b2b}
+tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
 
-a:link {
+a:link,
+a:visited {
 	text-decoration: none;
-	color: #a7c5eb;
+	color: #000000;
 }
 
-a:visited {color: #a7c5eb}
+a:hover {
+	color: #a27ca0;
+}
 
-a:hover {color: #a27ca0}
-
-a:active {color: #88c37f}
+a:active {
+	color: #88c37f;
+}
