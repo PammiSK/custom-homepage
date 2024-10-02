@@ -1,4 +1,4 @@
-# Custom Homepage
+![image](https://github.com/user-attachments/assets/adbf8c56-c60b-4973-b2fb-06cfe8c3a51a)# Custom Homepage
 
 ## About
 
@@ -54,10 +54,6 @@ The main objectives of this project are:
 - **Dark Mode Toggle:**
   - Use the "Light Mode"/"Dark Mode" button at the top to switch between themes.
   - Your preference will be saved and applied on subsequent visits.
-
-## Screenshots
-
-*(Include screenshots of the homepage in both light and dark modes if possible.)*
 
 ## Disclaimer
 
