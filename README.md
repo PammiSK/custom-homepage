@@ -54,6 +54,12 @@ The main objectives of this project are:
 - **Dark Mode Toggle:**
   - Use the "Light Mode"/"Dark Mode" button at the top to switch between themes.
   - Your preference will be saved and applied on subsequent visits.
+ 
+## Screenshots
+![image](https://github.com/user-attachments/assets/4943cda0-fc29-4f75-85a2-cb4b29e446a3)
+![image](https://github.com/user-attachments/assets/3f3d1d6f-32fa-42a3-9d3c-84006c732229)
+
+
 
 ## Disclaimer
 
