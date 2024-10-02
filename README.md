@@ -11,7 +11,7 @@ The main objectives of this project are:
 - **Provide a Convenient and Personalized Homepage:** Quick access to frequently used websites organized in a clean and user-friendly layout.
 - **Practice Web Development Skills:** Enhance proficiency in HTML, CSS, and JavaScript by implementing interactive features.
 - **Implement Persistent Dark Mode:** Utilize `localStorage` to remember user preferences across sessions.
-- - **ChatGPT:** Utilising the capabilities of LLM to create a simple website.
+- **ChatGPT:** Utilising the capabilities of LLM to create a simple website.
 
 ## Features
 
