@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/adbf8c56-c60b-4973-b2fb-06cfe8c3a51a)# Custom Homepage
+# Custom Homepage
 
 ## About
 
