@@ -1,26 +1,32 @@
-// Function to toggle dark mode
 function toggleMode() {
     document.body.classList.toggle('light-mode');
     // Save user preference in localStorage
     if (document.body.classList.contains('light-mode')) {
         localStorage.setItem('theme', 'light');
-        document.getElementById('mode-toggle').textContent = 'Dark Mode';
+        modeToggleButton.textContent = 'Dark Mode';
     } else {
         localStorage.setItem('theme', 'dark');
-        document.getElementById('mode-toggle').textContent = 'Light Mode';
+        modeToggleButton.textContent = 'Light Mode';
     }
 }
 
-// Ensure the DOM is fully loaded before running the script
-window.onload = function () {
+document.addEventListener('DOMContentLoaded', function () {
     const savedTheme = localStorage.getItem('theme');
+    const modeToggleButton = document.getElementById('mode-toggle');
+
     if (savedTheme === 'light') {
         document.body.classList.add('light-mode');
-        document.getElementById('mode-toggle').textContent = 'Dark Mode';
+        modeToggleButton.textContent = 'Dark Mode';
     } else {
-        document.getElementById('mode-toggle').textContent = 'Light Mode';
+        // Set default theme to dark if no preference is saved
+        localStorage.setItem('theme', 'dark');
+        document.body.classList.remove('light-mode');
+        modeToggleButton.textContent = 'Light Mode';
     }
 
-    // Add event listener for the toggle button
-    document.getElementById('mode-toggle').addEventListener('click', toggleMode);
-}
+    if (modeToggleButton) {
+        modeToggleButton.addEventListener('click', toggleMode);
+    } else {
+        console.error('Mode toggle button not found');
+    }
+});
