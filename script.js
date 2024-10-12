@@ -1,3 +1,5 @@
+let modeToggleButton; // Declare modeToggleButton globally
+
 function toggleMode() {
     document.body.classList.toggle('light-mode');
     // Save user preference in localStorage
@@ -12,7 +14,7 @@ function toggleMode() {
 
 document.addEventListener('DOMContentLoaded', function () {
     const savedTheme = localStorage.getItem('theme');
-    const modeToggleButton = document.getElementById('mode-toggle');
+    modeToggleButton = document.getElementById('mode-toggle'); // Initialize modeToggleButton
 
     if (savedTheme === 'light') {
         document.body.classList.add('light-mode');
@@ -29,4 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         console.error('Mode toggle button not found');
     }
+});
+
+document.getElementById('next-assignment').addEventListener('click', function () {
+    window.location.href = '../assignment-tracker/assignments.html'; // Navigate to assignments.html
 });

@@ -24,8 +24,8 @@ body.light-mode {
 } */
 
 body {
-    background: var(--background-color);
-    color: var(--text-color);
+	background: var(--background-color);
+	color: var(--text-color);
 	transition: background-color 0.5s, color 0.5s;
 }
 
@@ -67,29 +67,34 @@ td {
 	vertical-align: middle;
 }
 
-a:link, a:visited {
-    color: var(--link-color);
+a:link,
+a:visited {
+	color: var(--link-color);
 }
 
 a:hover {
-    color: var(--hover-link-color);
+	color: var(--hover-link-color);
 }
 
 a:active {
-    color: var(--active-link-color);
+	color: var(--active-link-color);
 }
 
 .mode-toggle {
 	display: block;
-    padding: 10px;
-    margin: 20px auto;
-    background-color: #ccc;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: #ccc;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 5px;
 }
 
 .mode-toggle:hover {
-    background-color: #888;
+	background-color: #888;
+}
+
+#next-assignment {
+	/* Adds space between the buttons */
 }
