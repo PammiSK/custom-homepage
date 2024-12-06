@@ -32,7 +32,3 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Mode toggle button not found');
     }
 });
-
-document.getElementById('next-assignment').addEventListener('click', function () {
-    window.location.href = '../assignment-tracker/assignments.html'; // Navigate to assignments.html
-});
